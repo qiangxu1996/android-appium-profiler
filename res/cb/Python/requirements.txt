@@ -1,0 +1,19 @@
+beautifulsoup4
+fake_useragent
+keras<2.7.0
+lxml
+matplotlib
+numpy
+opencv-python
+pandas
+pillow
+qiskit
+requests
+# scikit-fuzzy  # Causing broken builds
+sklearn
+statsmodels
+sympy
+tensorflow
+texttable
+tweepy
+xgboost
