@@ -12,7 +12,7 @@ INPUT_APP = 'edu.purdue.dsnl.asktest'
 
 class App(app_test.AppTest):
     """
-    Install INPUT_APP before start
+    Build and install INPUT_APP before start
     """
 
     def __init__(self, **kwargs):
