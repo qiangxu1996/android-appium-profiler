@@ -2,6 +2,10 @@
 
 An energy measurement framework for Android apps based on Appium.
 
+## Dependency
+
+- Android Studio
+
 ## Setup
 
 ```bash
@@ -27,10 +31,12 @@ Multiple example scripts for different apps are provided.
 First start the appium server:
 
 ```bash
-export JAVA_HOME=<path to jdk>
+export JAVA_HOME=<path to android studio jdk>
 export ANDROID_SDK_ROOT=<path to android sdk>
 appium --allow-insecure chromedriver_autodownload
 ```
+
+The two paths can be found in Android Studio's Project Structure window.
 
 Then start the script (in another shell):
 
